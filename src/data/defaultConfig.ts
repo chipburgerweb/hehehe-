@@ -1,0 +1,157 @@
+import { BirthdayConfig } from '../types/birthday';
+
+export const DEFAULT_BIRTHDAY_CONFIG: BirthdayConfig = {
+  siteBrand: 'Langit Untukmu',
+  recipientName: 'Ayla',
+  recipientNickname: 'Sayang',
+  senderName: 'Raka',
+  birthdayDate: '2026-11-23',
+  turningAge: 21,
+  skyMood: 'cerulean',
+  heroTitle: 'Selamat Ulang Tahun, Ayla.',
+  heroSubtitle:
+    'Seperti langit biru yang selalu luas untuk terbang bebas, semoga setiap langkahmu di usia baru selalu ringan, hangat, dan ditemani senyum yang tak pernah padam.',
+  heroPhotoDataUrl: null,
+  heroPhotoCaption: 'Foto favorit kita berdua — unggah fotomu di Studio Kustomisasi',
+  letterHeading: 'Untukmu yang selalu jadi rumah di bawah langit yang sama',
+  letterBody:
+    'Selamat bertambah usia, Sayang.\n\nTerima kasih sudah hadir dan membuat hari-hari biasa terasa seperti petualangan yang selalu kutunggu. Sama seperti Hiccup dan Toothless yang saling percaya di atas awan, aku bersyukur punya kamu sebagai partner terbang terbaikku.\n\nDi umur yang baru ini, aku doakan semua hal baik datang menghampirimu satu per satu. Jangan pernah ragu untuk bermimpi setinggi langit—karena di sampingmu, aku akan selalu ada buat nemenin, dengerin ceritamu, dan merayakan setiap kemenangan kecilmu.\n\nTetap jadi kamu yang hangat, ceria, dan bikin duniaku selalu berwarna biru cerah.',
+  letterClosing: 'Selalu di sampingmu,',
+  letterPhotoDataUrl: null,
+  letterPhotoCaption: 'Satu bingkai kecil yang paling aku jaga',
+  secretConstellationTitle: 'Janji di Bawah Langit Berbintang',
+  secretConstellationMessage:
+    'Kapan pun langit terasa mendung, ingatlah bahwa kamu tidak pernah terbang sendirian. Kamu punya aku, dan kita masih punya ribuan langit biru lain untuk dijelajahi bersama.',
+  toothlessQuotes: [
+    'Toothless bilang: senyummu lebih terang dari plasma biru!',
+    'Selamat ulang tahun! Toothless sudah menyiapkan awan paling empuk hari ini.',
+    'Satu elusan lagi, nanti Toothless kasih ekstra pelukan dari aku!',
+    'Kamu adalah alasan kenapa langit hari ini kelihatan jauh lebih biru.',
+    'Psst... katanya ada pesan rahasia kalau semua bintang konstelasi disambungkan!',
+  ],
+  memories: [
+    {
+      id: 'mem-1',
+      title: 'Sore Pertama di Bawah Langit Cerah',
+      date: '14 Juni 2024',
+      location: 'Taman Kota',
+      story:
+        'Hari ketika obrolan singkat kita berubah jadi sore panjang yang tidak ingin cepat selesai. Klik tombol Kustomisasi untuk mengganti dengan foto asli kita.',
+      category: 'Momen Favorit',
+      imageDataUrl: null,
+      featured: true,
+    },
+    {
+      id: 'mem-2',
+      title: 'Jalan-Jalan Tanpa Rencana',
+      date: '22 September 2024',
+      location: 'Pesisir Utara',
+      story:
+        'Nyasar sedikit, ketawa paling banyak, dan pulang membawa cerita yang masih sering kita ulang sampai hari ini.',
+      category: 'Petualangan',
+      imageDataUrl: null,
+    },
+    {
+      id: 'mem-3',
+      title: 'Ekspresi Paling Menggemaskan',
+      date: '08 Januari 2025',
+      location: 'Kafe Sudut',
+      story:
+        'Momen candid yang diam-diam aku simpan karena setiap lihat foto ini, rasa capek seharian langsung hilang.',
+      category: 'Lucu',
+      imageDataUrl: null,
+    },
+    {
+      id: 'mem-4',
+      title: 'Menonton Senja Berdua',
+      date: '19 Mei 2025',
+      location: 'Bukit Bintang',
+      story:
+        'Angin sore yang sejuk, langit perlahan berubah ungu-biru, dan tanganmu yang hangat di genggamanku.',
+      category: 'Momen Favorit',
+      imageDataUrl: null,
+    },
+    {
+      id: 'mem-5',
+      title: 'Petualangan Akhir Pekan',
+      date: '11 Oktober 2025',
+      location: 'Danau Biru',
+      story:
+        'Dari pagi sampai malam kita habiskan waktu berkeliling, foto-foto lucu, dan berjanji akan kembali lagi suatu hari.',
+      category: 'Petualangan',
+      imageDataUrl: null,
+    },
+  ],
+  constellationStars: [
+    {
+      id: 'star-1',
+      label: '01',
+      title: 'Tawamu yang Menular',
+      message: 'Cara kamu tertawa lepas selalu berhasil mengubah hariku yang berat jadi jauh lebih ringan.',
+      x: 16,
+      y: 38,
+    },
+    {
+      id: 'star-2',
+      label: '02',
+      title: 'Hati yang Lembut',
+      message: 'Kamu selalu peduli pada hal-hal kecil yang sering dilewatkan orang lain, dan itu luar biasa indah.',
+      x: 31,
+      y: 24,
+    },
+    {
+      id: 'star-3',
+      label: '03',
+      title: 'Partner Cerita Terbaik',
+      message: 'Dari hal serius sampai obrolan random tengah malam, semuanya selalu seru kalau dibahas sama kamu.',
+      x: 47,
+      y: 34,
+    },
+    {
+      id: 'star-4',
+      label: '04',
+      title: 'Keberanianmu Bermimpi',
+      message: 'Melihatmu terus berusaha dan tumbuh setiap hari bikin aku makin bangga punya kamu.',
+      x: 61,
+      y: 22,
+    },
+    {
+      id: 'star-5',
+      label: '05',
+      title: 'Kehangatan yang Tenang',
+      message: 'Bersamamu tidak pernah perlu berpura-pura—cukup jadi diri sendiri dan semuanya terasa pas.',
+      x: 78,
+      y: 36,
+    },
+    {
+      id: 'star-6',
+      label: '06',
+      title: 'Sisi Lucu & Spontanmu',
+      message: 'Tingkah lucumu yang kadang mirip Toothless bikin aku selalu kangen bahkan baru sebentar berpisah.',
+      x: 64,
+      y: 62,
+    },
+    {
+      id: 'star-7',
+      label: '07',
+      title: 'Masa Depan yang Kita Rancang',
+      message: 'Aku tidak sabar melihat semua tempat baru dan ulang tahun berikutnya yang akan kita rayakan bersama.',
+      x: 38,
+      y: 68,
+    },
+  ],
+  wishLanterns: [
+    {
+      id: 'lantern-init-1',
+      wish: 'Semoga sehat selalu, makin bahagia, dan semua impian tahun ini tercapai.',
+      createdAt: 'Doa pertama di langit',
+      xOffset: 24,
+    },
+    {
+      id: 'lantern-init-2',
+      wish: 'Semoga kita bisa terus jalan-jalan ke tempat impian kita berdua.',
+      createdAt: 'Doa kedua di langit',
+      xOffset: 72,
+    },
+  ],
+};
